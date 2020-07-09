@@ -1,0 +1,2 @@
+# LiteBooky
+LiteBooky is a Hotel Management System which is designed using CSS, HTML5, Javascript and some basic of Angular. Since It was a group project and mine role was to design signup page;hotel description page including hotel gallary page, hotel location page, history of the hotel;blog page including different types of suggestion for vacation planning page;about us page. Rest of the part are created by my fellow teammates . 
