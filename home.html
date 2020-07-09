@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+<body ng-app="hl">
+    <header class="header-body" ng-controller="hotels">
+        <div class="container">
+            <div class="header">
+                <div class="header-brand">
+                    <a href="#" class="brand">LiteBooky</a>
+                </div>
+                <div class="header-links">
+                    <a href="">Sign Up / Login</a>
+                </div>
+            </div>
+            <div class="brand-tagline">
+                <h1>Compare. Book . Stay</h1>
+            </div>
+            <div class="hotel-form">
+                <div class="form-fields">
+                    <table>
+                        <tr>
+                            <td class="where">Where</td>
+                            <td class="check-in">Check-in</td>
+                            <td  class="check-out">check-out</td>
+                            <td class="guest">Guests</td>
+                            <td rowspan="2"><a href="#!hotel-results" class="primary-btn">Search</a></td>
+                        </tr>
+                        <tr>
+                            <td class="where"><input type="text" ng-focus="run()" ng-model="fil" placeholder="Enter-destination or Hotel Name" id="dt"></td>
+                            <td class="check-in"><div>04 Nov, Mon</div></td>
+                            <td class="check-out"><div>05 Nov, Tue</div></td>
+                            <td class="guest"><div>2 Guests, 1 Room</div></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="place" id="n-place" ng-show="showMe">
+                <ul ng-repeat="x in places|filter:fil">
+                    <li>{{ x }}</li>
+                </ul>
+            </div>
+        </div>
+        <img src="home.jpg" height="646px" width="100%">
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

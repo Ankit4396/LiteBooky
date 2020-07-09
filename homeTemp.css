@@ -1,0 +1,136 @@
+.main-block {
+    min-width: 1100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    top: -40px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.rbHotels-features .features-blk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.rbHotels-features .features-blk .ft-hg {
+    width: 250px;
+    text-align: center;
+    height: 300px;
+    font-size: 14px;
+}
+.rbHotels-features .features-blk .ft-hg .ft-img {
+    margin-bottom: 30px;
+}
+.rbHotels-features .features-blk .ft-hg .ft-bold-text {
+    line-height: 1.14;
+    color: #000;
+    text-transform: uppercase;
+}
+.rbHotels-features .features-blk .ft-hg .ft-bold-text, .rbHotels-features .features-blk .ft-hg .ft-text {
+    margin-bottom: 10px;
+    width: 245px;
+    line-height: 1.36;
+    color: #404040;
+}
+
+/*---------------review-----------*/
+
+.cust-reviews {
+    background-color: #919cd9;
+    color: #fff;
+    height: 570px;
+    top: -80px;
+    position: relative;
+}
+.cust-reviews .wrapper {
+    padding: 20px 0;
+    min-width: 1200px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.cust-reviews h3 {
+    margin: 25px 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    line-height: 1.46;
+    letter-spacing: -.9px;
+    font-weight: 400;
+}
+.cust-reviews .wrap {
+    overflow: hidden;
+}
+.cust-reviews .carousel.is-set {
+    -webkit-transition: -webkit-transform .5s cubic-bezier(.23,1,.32,1);
+    transition: -webkit-transform .5s cubic-bezier(.23,1,.32,1);
+    transition: transform .5s cubic-bezier(.23,1,.32,1);
+    transition: transform .5s cubic-bezier(.23,1,.32,1),-webkit-transform .5s cubic-bezier(.23,1,.32,1);
+}
+.cust-reviews .carousel {
+    width: 2715px;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
+}
+.cust-reviews .carousel-seat {
+    background: #fff;
+    float: left;
+    width: 825px;
+    height: 315px;
+    border-radius: 10px;
+    -webkit-box-shadow: -8px 22px 24px 0 rgba(0,0,0,.26);
+    box-shadow: -8px 22px 24px 0 rgba(0,0,0,.26);
+    margin: 30px 40px;
+}
+.cust-reviews .reviews-block {
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+}
+.cust-reviews .reviews-block .panel-1 {
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.cust-reviews .reviews-block .panel-1 .cust-img {
+    width: 60px;
+    height: 60px;
+    -webkit-box-shadow: 3px 4px 7px rgba(182,182,182,.8);
+    box-shadow: 3px 4px 7px rgba(182,182,182,.8);
+    border-radius: 50%;
+}
+.cust-reviews .reviews-block .panel-2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 680px;
+    height: 314px;
+    padding: 95px 30px 10px;
+}
+.cust-reviews .reviews-block .panel-2 .cust-review {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.86;
+    text-align: left;
+    color: #000;
+    width: 80%;
+    position: relative;
+    quotes: '\201c' '\201d';
+}
+.cust-reviews .reviews-block .panel-2 .cust-info {
+    width: 65%;
+    position: absolute;
+    bottom: 20px;
+}
