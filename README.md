@@ -3,8 +3,9 @@ LiteBooky is a Hotel Management System which is designed using CSS, HTML5, Javas
 Exicted to share this publicly. 
 
 kindly follow the following steps to run the project:-
-step A : Download the and files and store in a folder then open index.html on your browser and enjoy the project
-step B : Since some part may not work so to enjoy the project fully kindly run it through your localhost.
+
+     step A : Download the and files and store in a folder then open index.html on your browser and enjoy the project
+     step B : Since some part may not work so to enjoy the project fully kindly run it through your localhost.
          How To Run?? After Starting Apache  in XAMPP, follow the following steps
 
         1st Step: Download all files 
